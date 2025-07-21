@@ -126,25 +126,6 @@
   content: '';
   clear: both;
  }
-.tran3s,.theme-main-menu .navbar-nav>li a,#project-section .project-gallery .single-img .opacity,
-#team-section .team-member-wrapper .single-team-member .member-name h6,
-#team-section .team-member-wrapper .single-team-member .member-name p,
-#team-section .team-member-wrapper .single-team-member .member-name ul,
-#our-client .owl-theme .owl-dots .owl-dot span {
-  -webkit-transition: all .3s ease-in-out;
-     -moz-transition: all .3s ease-in-out;
-      -ms-transition: all .3s ease-in-out;
-       -o-transition: all .3s ease-in-out;
-          transition: all .3s ease-in-out;
- }
-.tran4s,#service-section .single-service-content p,#project-section .project-gallery .single-img .opacity ul,
-#project-section .project-gallery .single-img .opacity h6 a {
-  -webkit-transition: all .4s ease-in-out;
-     -moz-transition: all .4s ease-in-out;
-      -ms-transition: all .4s ease-in-out;
-       -o-transition: all .4s ease-in-out;
-          transition: all .4s ease-in-out;
- }
 .float-left {float:left;}
 .float-right {float:right;}
 .round-border {
@@ -191,7 +172,7 @@
 .blog-details-post-wrapper .list-img-wrapper ul li a:hover,.blog-details-post-wrapper .post-comment form button:hover,
 .blog-details-post-wrapper .post-share-area .share li a:hover,.theme-main-menu.navbar .nav>li ul li a:hover,
 .blog-details-post-wrapper .post-share-area .share li a.active {
-  color:#d73e4d;
+  /* color:#d73e4d; */
 }
 .theme-title h2:before,#about-us .single-about-content:hover .icon,
 #skill-section .codeconSkillbar .skillBar,#our-client .owl-theme .owl-dots .owl-dot.active span,
@@ -1165,6 +1146,10 @@
   background: #fff;
 }
 
+/* =============================================================
+      Policy Section Styles (Enhanced)
+   ============================================================= 
+*/
 
 
 /* =============================================================
@@ -1639,4 +1624,64 @@ footer p {
 
 .close-btn:hover {
     color: #007acc;
+}
+
+/* =============================================================
+   Policy Section Styles (Enhanced)
+============================================================= */
+.policy {
+  background: #faf8f0;
+  margin: 80px auto 80px auto;
+  max-width: 85%;
+  padding: 70px 50px 30px 50px;
+  font-size: 2.0rem;
+  color: #222;
+}
+.policy-container {
+  width: 100%;
+}
+.policy h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1a237e;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+.policy h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #283593;
+  margin-top: 28px;
+  margin-bottom: 10px;
+}
+.policy ul {
+  margin-left: 20px;
+  margin-bottom: 18px;
+}
+.policy ul li {
+  margin-bottom: 7px;
+  line-height: 1.7;
+}
+.policy p {
+  margin-bottom: 14px;
+  line-height: 1.7;
+}
+.policy a {
+  color: #1976d2;
+  text-decoration: underline;
+}
+.policy a:hover {
+  color: #0d47a1;
+}
+@media (max-width: 600px) {
+  .policy {
+    padding: 20px 8px 18px 8px;
+    font-size: 0.98rem;
+  }
+  .policy h2 {
+    font-size: 1.4rem;
+  }
+  .policy h3 {
+    font-size: 1.08rem;
+  }
 }
